@@ -1,0 +1,98 @@
+.admin-dashboard {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .dashboard-title {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-category-btn,
+  .add-venue-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .modal-title {
+    color: #dc3545;
+  }
+  
+  .categorys-venues {
+    margin-top: 30px;
+  }
+  
+  .category-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .category-section {
+    margin-bottom: 20px;
+  }
+  
+  .category-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .delete-category-btn {
+    background-color: #dc3545;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .venue-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .venue-item {
+    border: 1px solid #dee2e6;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .venue-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .venue-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .venue-location,
+  .venue-rating {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .venue-image {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+  
+  .venue-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-venue-btn,
+  .delete-venue-btn {
+    width: 80px;
+    font-weight: bold;
+  }
+  
