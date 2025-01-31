@@ -1,0 +1,38 @@
+.booking-container {
+    background-color: #dbdde0; /* Light background for better contrast */
+    border-radius: 8px; /* Rounded corners for the container */
+    padding: 20px; /* Padding for the container */
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .card {
+    border-radius: 8px; /* Rounded corners for cards */
+  }
+  
+  .booking-card {
+    height: auto; /* Ensure the card height adjusts based on content */
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Larger font size for titles */
+  }
+  
+  .card-subtitle {
+    font-size: 1rem; /* Subtle subtitle styling */
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Standard text size for details */
+  }
+  
+  @media (max-width: 768px) {
+    .card-title {
+      font-size: 1.25rem; /* Smaller titles on mobile */
+    }
+  
+    .card-text {
+      font-size: 0.9rem; /* Smaller text on mobile */
+    }
+  }
+  
