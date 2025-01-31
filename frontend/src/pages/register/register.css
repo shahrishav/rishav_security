@@ -1,0 +1,141 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('../../../public/assets/images/bgg.jpg');
+  background-size: cover;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-button {
+  padding: 10px;
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #3700B3;
+}
+
+.signin-link {
+  margin-top: 20px;
+}
+
+.signin-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.signin-link a:hover {
+  text-decoration: underline;
+} */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+}
+
+.background-container {
+  width: 99vw;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 4rem; /* Ensure space for footer */
+}
+
+.styled-container {
+  min-height: calc(100vh - 4rem); /* Adjust height to accommodate footer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.styled-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 3rem;
+  width: 400px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.styled-input {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.styled-input input {
+  width: 100%;
+  padding: 1rem 1rem 1rem 3rem;
+  border: none;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.styled-input input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #4ecdc4;
+}
+
+.styled-input svg {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ff6b6b;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ff6b6b;
+  padding: 0;
+  margin: 0;
+}
